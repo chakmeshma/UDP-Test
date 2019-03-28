@@ -124,8 +124,6 @@ public class Networking : MonoBehaviour
 
     void setupHost(int maxConnections, int port)
     {
-        int hostID;
-
         NetworkTransport.Init();
 
         ConnectionConfig config = new ConnectionConfig();
